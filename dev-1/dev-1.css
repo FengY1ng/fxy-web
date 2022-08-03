@@ -11,6 +11,10 @@ body {
   background: url(../images/background.png) no-repeat;
   background-size: cover;
 }
+.All > h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
 .All {
   display: flex;
   flex-direction: column;
@@ -30,4 +34,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  margin-bottom: 10px;
+}
+.All .input-box > label {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+}
+.All .input-box > input {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  height: 35px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  transition: 0.2s;
+  outline: none;
+  padding: 0 10px;
+}
+.All .input-box > input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
