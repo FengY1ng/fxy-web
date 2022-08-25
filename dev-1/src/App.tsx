@@ -9,11 +9,11 @@ function App() {
         <div className="Login">
             <div className="input-box">
                 <label>账号:</label>
-                <input type="text"/>
+                <input className='admin' type="text" />
             </div>
             <div className="input-box">
                 <label>密码:</label>
-                <input type="password"/>
+                <input className='pwd' type="password" />
             </div>
             <div className="btn-box">
                 <a href="#">忘记密码？</a>
